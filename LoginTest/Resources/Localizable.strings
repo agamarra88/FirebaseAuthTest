@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  LoginTest
+
+  Created by Arturo Gamarra on 4/4/19.
+  Copyright © 2019 Intercorp. All rights reserved.
+*/
+
+// LoginViewController
+"login_indicate_phone"  = "Indique el número telefónico";
+
+// VerificationCodeViewController
+"verification_code_invalid_credentials" = "Credenciales de usuario inválidas. Intente nuevamente";
+
+// RegisterViewController
+"register_invalid_form" = "El formulario no ha sido llenado en su totalidad. Por favor, complete el formulario";

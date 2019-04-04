@@ -56,8 +56,10 @@ class RegisterViewController: UIViewController {
         guard let name = nameTextField.text
             , let lastName = lastNameTextField.text
             , let email = emailTextField.text
-            , let birthDate = birthDateTextField.date else {
-                self.showErrorView(withMessage: "El formulario no ha sido llenado en su totalidad. Por favor, complete el formulario")
+            , let birthDate = birthDateTextField.date
+            , !name.isEmpty && !lastName.isEmpty && !email.isEmpty else {
+                let message = NSLocalizedString("register_invalid_form", comment: "El formulario no ha sido llenado en su totalidad. Por favor, complete el formulario")
+                self.showErrorView(withMessage: message)
             return
         }
         user.name = name

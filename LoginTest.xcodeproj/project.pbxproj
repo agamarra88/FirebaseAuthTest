@@ -35,6 +35,7 @@
 		69EE4FBA2256037A00DB92DA /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EE4FB92256037A00DB92DA /* UserManager.swift */; };
 		69EE4FBC2256038200DB92DA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EE4FBB2256038200DB92DA /* User.swift */; };
 		69EE4FBE2256086E00DB92DA /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EE4FBD2256086E00DB92DA /* WelcomeViewController.swift */; };
+		69EE4FC02256316500DB92DA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69EE4FBF2256316500DB92DA /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		69EE4FB92256037A00DB92DA /* UserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		69EE4FBB2256038200DB92DA /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		69EE4FBD2256086E00DB92DA /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		69EE4FBF2256316500DB92DA /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		A9665830336DE185685F9D81 /* Pods_LoginTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B60E7F1C510F03C7B293B09B /* Pods-LoginTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginTest.debug.xcconfig"; path = "Target Support Files/Pods-LoginTest/Pods-LoginTest.debug.xcconfig"; sourceTree = "<group>"; };
 		E5EBB8F596652789C5CC9AF8 /* Pods-LoginTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginTest.release.xcconfig"; path = "Target Support Files/Pods-LoginTest/Pods-LoginTest.release.xcconfig"; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 			children = (
 				695F768A2255C3A900B3B2FD /* Assets.xcassets */,
 				69B6DA7D2255E6C00041F23C /* Constants.swift */,
+				69EE4FBF2256316500DB92DA /* Localizable.strings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69EE4FC02256316500DB92DA /* Localizable.strings in Resources */,
 				695F768E2255C3A900B3B2FD /* LaunchScreen.storyboard in Resources */,
 				69B6DA7C2255DDF40041F23C /* GoogleService-Info.plist in Resources */,
 				695F768B2255C3A900B3B2FD /* Assets.xcassets in Resources */,

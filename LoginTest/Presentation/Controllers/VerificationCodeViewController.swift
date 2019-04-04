@@ -54,7 +54,8 @@ class VerificationCodeViewController: UIViewController {
                 return
             }
             guard let remoteUser = authResult?.user else {
-                self.showErrorView(withMessage: "Credenciales de usuario inválidas. Intente nuevamente")
+                let message = NSLocalizedString("verification_code_invalid_credentials", comment: "Credenciales de usuario inválidas. Intente nuevamente")
+                self.showErrorView(withMessage: message)
                 for textfield in self.textFields {
                     textfield.text = ""
                 }

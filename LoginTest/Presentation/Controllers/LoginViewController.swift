@@ -21,8 +21,9 @@ class LoginViewController: UIViewController {
     }
 
     @IBAction func loginButtonTapped(_ sender: Any) {
-        guard let phone = phoneTextField.text else {
-            self.showErrorView(withMessage: "Indique el número telefónico")
+        guard let phone = phoneTextField.text,
+            !phone.isEmpty else {
+            self.showErrorView(withMessage: NSLocalizedString("login_indicate_phone",comment: "Indique el número telefónico"))
             return
         }
         let completePhone = countryCodeLabel.text! + phone
